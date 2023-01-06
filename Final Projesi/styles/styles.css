@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,400&display=swap');
+:root{
+    -moz-text-decoration-color: #e84242;
+    --black-color: #121212;
+    --border: 0.1rem solid rgba(255,255,255,0.4)
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+/*! base html codes  */
+html {
+    font-size: 62.5%;
+    overflow-x:hidden ;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #2b69e4;
+    
+}
+
+section{
+    padding: 3.5rem 5%;
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem 3.5rem;
+    border-radius: 7.5rem;
+    font-size: 2rem;
+    color: #fff;
+    background-color: var(--black-color);
+
+}
+
+/* header start */
+.logo img{
+    height: 7rem;
+}
+.header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+    margin: 2rem 3%;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 17px -2px rgba(255, 255, 255, 0.75);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header .navbar{
+    align-items: center;
+}
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: var(--black-color);
+    border-bottom: 0.1rem solid transparent;
+}
+.header .navbar .active,
+.header .navbar a:hover{
+    border-color: var(--main-color);
+    padding-bottom: 0.5rem;
+}
+
+.header .buttons button{
+    cursor: pointer;
+    font-size: 3rem;
+    margin-left: 3rem;
+    background-color: transparent;
+}
+/* header end */
+
+/*! home start */
+.homee{
+    background:url()
+}
+.home{
+    min-height: 100vh;
+    background: url(); width: auto; height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -18rem;
+    display: flex;
+    align-items: center;
+}
+.home .content{
+    max-width: 60rem;
+}
+.home .content .yazi{
+    padding-top: 30%;
+}
+.home .content h2{
+    font-size: 4.5rem;
+    color: rgb(0, 0, 0);
+}
+.home .content p{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 1rem 0;
+    color: rgb(255, 255, 255);
+}
+.home .content a{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+}
+
+/*! home end */
+
+
+.photo img{
+    margin-left: 7rem;
+    height: 300px;
+    width: 300px;
+    margin-top: 5rem;
+}
